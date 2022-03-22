@@ -11,6 +11,7 @@ Antes de comenzar, configuramos el entorno de trabajo correctamente y aceptamos 
 
 ### Ejercicio 1 - Pokedex
 
+
 **Enunciado**: Se pide crear una `Pokedex` donde se almacene la información relacionada con distintos Pokemons. Para cada Pokemon, se deben almacenar los siguientes elementos de información:
 
 1. Nombre
