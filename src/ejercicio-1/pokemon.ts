@@ -1,9 +1,11 @@
 /**
- * Ejercicio 1 - Pokedex
- * En este fichero se guardará la clase 'pokemon' con su información
+ * Ejercicio 1 
+ * En este fichero se guardará la subclase 'pokemon' con su información, heredada de Fighter
  */
 
-export class Pokemon {
+import {Fighter} from "./Fighter";
+
+export class Pokemon extends Fighter {
 
     /**
      * @param nombre es el nombre del pokemon
@@ -17,88 +19,10 @@ export class Pokemon {
      */
 
     /**
-     * Constructor simplificado con todos los atributos privados
+     * Constructor simplificado con todos los atributos heredados de Fighter
      */
-    constructor (private nombre: string, private peso: number, private altura: number,  private tipo: string, private ataque: number,  private defensa: number,  private velocidad: number,  private hp: number) {
-        this.nombre = nombre;
-        this.peso = peso;
-        this.altura = altura;
-        this.tipo = tipo;
-        this.ataque = ataque;
-        this.defensa = defensa;
-        this.velocidad = velocidad;
-        this.hp = hp;
+    constructor (nombre: string, peso: number, altura: number, tipo: string, ataque: number, defensa: number, velocidad: number, hp: number) {
+        super(nombre, peso, altura, tipo, ataque, defensa, velocidad, hp);
     }
 
-    /**
-     * 
-     * @returns nombre del pokemon
-     */
-    getNombre() { 
-        return this.nombre; 
-    }
-
-    /**
-     * 
-     * @returns peso del pokemon
-     */
-    getPeso() {
-        return this.peso;
-    }
-
-    /**
-     * 
-     * @returns altura del pokemon
-     */
-    getAltura() {
-        return this.altura;
-    }
-
-    /**
-     * 
-     * @returns tipo de pokemon
-     */
-    getTipo() {
-        return this.tipo;
-    }
-
-    /**
-     * 
-     * @returns puntos de ataque del pokemon
-     */
-    getAtaque() {
-        return this.ataque;
-    }
-
-    /**
-     * 
-     * @returns puntos de defensa del pokemon
-     */
-    getDefensa() {
-        return this.defensa;
-    }
-
-    /**
-     * 
-     * @returns velocidad del pokemon
-     */
-    getVelocidad() {
-        return this.velocidad;
-    }
-
-    /**
-     * 
-     * @returns puntos daño máximo del pokemon
-     */
-    getHp() {
-        return this.hp;
-    }
-
-    /**
-     * Método que modifica el valor HP de un pokemon
-     * @param hp nuevo valor HP 
-     */
-    setHP(hp: number) {
-        this.hp = hp;
-    }
 }
