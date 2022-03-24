@@ -1,6 +1,10 @@
 {
     "entryPoints": [
-        "./src/ejercicio-2/Streamable.ts"
+        "./src/ejercicio-2/Streamable.ts",
+        "./src/mod-1/Arithmeticable.ts",
+        "./src/mod-1/ArithmeticableCollection.ts",
+        "./src/mod-1/ArrayTwo.ts",
+        "./src/mod-1/Rational.ts"
     ],
     "out": "./docs"
 }
