@@ -1,13 +1,15 @@
-import {Pokemon} from './pokemon';
+//import {Pokemon} from './pokemon';
+//import {Fighter} from './Fighter';
 
 /**
  * Clase usada para simular un combate
  */
-export class Combat {
+/*
+export class Combat <T extends Fighter, U extends Fighter>{
 
-    constructor( private pokA: Pokemon, private pokB: Pokemon) {
-        this.pokA = pokA;
-        this.pokB = pokB;
+    constructor( private luchA: T, private luchB: U) {
+        this.luchA = luchA;
+        this.luchB = luchB;
     };
 
     /**
@@ -18,7 +20,7 @@ export class Combat {
      * @param defB defensa del pokemon B
      * @returns devuelve el daño final 
      */
-    daños(tipoA: string, tipoB: string, ataqA: number, defB: number): number {
+   /* daños(tipoA: string, tipoB: string, ataqA: number, defB: number): number {
         let super_efectivo = 2; //= 50 * (ataqA / defB) * 2;
         let neutral = 1; //= 50 * (ataqA / defB);
         let poco_efectivo = 0.5//: number = 50 * (ataqA / defB) * 0.5;
@@ -73,36 +75,36 @@ export class Combat {
      * Método para comenzar una batalla entre 2 pokemons
      * @returns pokemon ganador
      */
-    start() {
+   /* start() {
         //let salud_acabada: boolean = false;
         let turno: number = 1;
         let ganador: string = "";
 
-        console.log(`Combate entre ${this.pokA.getNombre()} con ${this.pokA.getHp()} puntos VS ${this.pokB.getNombre()} con ${this.pokB.getHp()} puntos`);
+        console.log(`Combate entre ${this.luchA.getNombre()} con ${this.luchA.getHp()} puntos VS ${this.luchB.getNombre()} con ${this.luchB.getHp()} puntos`);
 
-        while((this.pokA.getHp() > 0) || (this.pokB.getHp() > 0)) {
+        while((this.luchA.getHp() > 0) || (this.luchB.getHp() > 0)) {
             let daño: number = 0;
 
             console.log(`Truno: ${turno}`);
 
             if(turno % 2 != 0) {
-                daño = this.daños(this.pokA.getTipo(), this.pokB.getTipo(), this.pokA.getAtaque(), this.pokB.getDefensa());
-                this.pokB.setHP(this.pokB.getHp() - daño);
-                console.log(`Pokemon ${this.pokA.getNombre()} le hizo daño al pokemon ${this.pokB.getNombre()}`);
-                console.log(`HP pokemon ${this.pokA.getNombre()} = ${this.pokA.getHp()}`);
-                console.log(`HP pokemon ${this.pokB.getNombre()} = ${this.pokB.getHp()}`);
+                daño = this.daños(this.luchA.getTipo(), this.luchB.getTipo(), this.luchA.getAtaque(), this.luchB.getDefensa());
+                this.luchB.setHp(this.luchB.getHp() - daño);
+                console.log(`Pokemon ${this.luchA.getNombre()} le hizo daño al pokemon ${this.luchB.getNombre()}`);
+                console.log(`HP pokemon ${this.luchA.getNombre()} = ${this.luchA.getHp()}`);
+                console.log(`HP pokemon ${this.luchB.getNombre()} = ${this.luchB.getHp()}`);
             }else {
-                daño = this.daños(this.pokB.getTipo(), this.pokA.getTipo(), this.pokB.getAtaque(), this.pokA.getDefensa());
-                this.pokA.setHP(this.pokA.getHp() - daño);
-                console.log(`Pokemon ${this.pokB.getNombre()} le hizo daño al pokemon ${this.pokA.getNombre()}`);
-                console.log(`HP pokemon ${this.pokA.getNombre()} = ${this.pokA.getHp()}`);
-                console.log(`HP pokemon ${this.pokB.getNombre()} = ${this.pokB.getHp()}`);
+                daño = this.daños(this.luchB.getTipo(), this.luchA.getTipo(), this.luchB.getAtaque(), this.luchA.getDefensa());
+                this.luchA.setHp(this.luchA.getHp() - daño);
+                console.log(`Pokemon ${this.luchB.getNombre()} le hizo daño al pokemon ${this.luchA.getNombre()}`);
+                console.log(`HP pokemon ${this.luchA.getNombre()} = ${this.luchA.getHp()}`);
+                console.log(`HP pokemon ${this.luchB.getNombre()} = ${this.luchB.getHp()}`);
             }
 
-            if(this.pokA.getHp() <= 0) {
-                ganador = this.pokB.getNombre();
+            if(this.luchA.getHp() <= 0) {
+                ganador = this.luchB.getNombre();
             }else {
-                ganador = this.pokA.getNombre();
+                ganador = this.luchA.getNombre();
             }
 
             turno ++;
@@ -111,4 +113,4 @@ export class Combat {
         console.log(`Ganador: ${ganador}`);
         return ganador;
     }  
-}
+}*/

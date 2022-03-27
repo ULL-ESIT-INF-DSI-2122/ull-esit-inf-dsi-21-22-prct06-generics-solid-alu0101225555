@@ -1,11 +1,8 @@
-/**
- * Clase hija de película que modela una colección de películas.
- */
-
+import { Serie } from "./Series";
 import { BasicStreamableCollection } from "./BasicStreamableCollection";
-import { Pelicula } from "./Peliculas";
 
-export class SubPeliculas<T extends Pelicula> extends BasicStreamableCollection<T> {
+
+export class SubSeriess<T extends Serie> extends BasicStreamableCollection<T> {
     constructor(public coleccion: T[]) {
         super (coleccion);
     }

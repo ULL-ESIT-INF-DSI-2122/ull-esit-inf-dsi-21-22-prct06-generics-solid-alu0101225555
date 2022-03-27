@@ -1,21 +1,16 @@
-/**
- * Ejercicio 1 
- * En este fichero se guardará la subclase 'pokemon' con su información, heredada de Fighter
- */
-
-/*import {Fighter} from "./Fighter";
-
-export class Pokemon extends Fighter {
+//import {Fighter} from "./Fighter";
+/*
+export class DC extends Fighter {
 
     /**
-     * @param nombre es el nombre del pokemon
-     * @param peso es el peso del pokemon
-     * @param altura es la altura del pokemon
-     * @param tipo es el tipo del pokemon: agua, fuego, hierba o electricidad
-     * @param ataque puntos ataque pokemon
-     * @param defensa puntos defensa pokemon
-     * @param velocidad velocidad pokemon
-     * @param hp puntos daño máximo pokemon
+     * @param nombre es el nombre 
+     * @param peso es el peso 
+     * @param altura es la altura 
+     * @param tipo es el tipo 
+     * @param ataque puntos ataque 
+     * @param defensa puntos defensa 
+     * @param velocidad velocidad 
+     * @param hp puntos daño máximo 
      */
 
     /**

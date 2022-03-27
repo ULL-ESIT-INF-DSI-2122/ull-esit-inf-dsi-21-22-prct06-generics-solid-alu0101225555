@@ -1,7 +1,7 @@
 /**
- * Clase 'Pelicula' contiene los atributos necesarios para definir una película.
+ * Clase Documental con sus getters y setters
  */
-export class Pelicula {
+export class Documental {
     constructor(protected titulo: string, protected anyo: number, protected director: string, protected actor: string){}
 
     getTitulo() {

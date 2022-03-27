@@ -1,9 +1,9 @@
-import {Pokemon} from './pokemon';
+/*import {Pokemon} from './pokemon';
 
 /**
  * Clase para guardar pokemons en un vector (Pokedex)
  */
-export class Pokedex {
+/*export class Pokedex {
 
     constructor (private vectorPokemon: Pokemon []) {
         this.vectorPokemon = vectorPokemon;
@@ -13,7 +13,7 @@ export class Pokedex {
      * 
      * @returns valor vector pokemon
      */
-    getVectorPokemon() {
+    /*getVectorPokemon() {
         return this.vectorPokemon;
     }  
 
@@ -21,7 +21,7 @@ export class Pokedex {
      * Método para introducir un pokemon en el vector de pokemons
      * @param pok pokemon a añadir al vector
      */
-    setPokemon(pok: Pokemon) {
+   /* setPokemon(pok: Pokemon) {
         this.vectorPokemon.push(pok);
     }
 
@@ -30,15 +30,15 @@ export class Pokedex {
      * @param pok pokemon a buscar
      * @returns true si encuentra al pokemon en el vector ó false si no lo encuentra
      */
-    findPokemon(pok: Pokemon) {
+    /*findPokemon(pok: Pokemon) {
         return this.vectorPokemon.includes(pok); //devulve true si lo encuentra
     }
 
     /**
      * Imprime el vector de pokemons
      */
-    printVectorPokemon() {
+    /*printVectorPokemon() {
         console.log(this.vectorPokemon);
     }
     
-}
+}*/
