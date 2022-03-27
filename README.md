@@ -167,6 +167,10 @@ export class SubPeliculas<T extends Pelicula> extends BasicStreamableCollection<
 
 Además, hemos implemntado una interfaz similar a `Stremeable`, llamada `Printeable`, que sirve para poder imprimir.
 
+## Conclusión
+
+El resultado del desarrollo de la práctica no ha sido el esperado, ya que he encontrado más dificultad que en las anteriores al no saber estructurar y plantear correctamente los ejercicios que se pedían. De hecho, el ejercicio 1 no está terminado por este motivo. 
+
 ## Enlaces
 - [tests](/home/usuario/p6/tests)
 - [src](/home/usuario/p6/src)
