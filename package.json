@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls && rm -rf .nyc_output",
-    "doc": "typedoc"
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov",
+    "doc": "typedoc; touch ./docs/.nojekyll"
   },
   "repository": {
     "type": "git",

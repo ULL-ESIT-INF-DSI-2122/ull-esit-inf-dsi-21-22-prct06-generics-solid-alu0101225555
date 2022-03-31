@@ -6,14 +6,16 @@
         "./src/mod-1/ArrayTwo.ts",
         "./src/mod-1/Rational.ts",
         "./src/ejercicio-2/BasicStreamableCollection.ts",
-        "./src/ejercicio-2/Documental",
         "./src/ejercicio-2/Peliculas.ts",
         "./src/ejercicio-2/Printeable.ts",
         "./src/ejercicio-2/Series.ts",
         "./src/ejercicio-2/Streamable.ts",
-        "./src/ejercicio-2/SubDocumental.ts",
         "./src/ejercicio-2/SubPeliculas.ts",
-        "./src/ejercicio-2/SubSeries.ts"
+        "./src/ejercicio-2/SubSeries.ts",
+        "./src/mod-p7/MetricLeght.ts",
+        "./src/mod-p7/ImperialLenght.ts",
+        "./src/mod-p7/Adapter.ts",
+        "./src/mod-p7/ClientCode.ts"
     ],
     "out": "./docs"
 }
