@@ -13,13 +13,25 @@ describe ('Ejercicio P8 mod - Factory Method Pokemon', () => {
 
     describe ('Expectativas', () => {
 
+        it('El pokemon Vulpix pertenece a la clase PokemonCreator', () => {
+            expect(Vulpix).to.be.instanceOf(PokemonCreator);
+        });
+
         it('Pokemon Vulpix', () => {
             expect(clientCode(Vulpix)).to.be.equal('Soy Vulpix, peso 9.9, mido 0.6, soy de tipo fuego, mis puntos de ataque son: 41, mis puntos de defensa son: 40, mi velocidad es 65, y mis puntos de salud son: 199');
             //expect()).to.be.equal('Soy Vulpix, peso 9.9, mido 0.6, soy de tipo fuego, mis puntos de ataque son: 41, mis puntos de defensa son: 40, mi velocidad es 65, y mis puntos de salud son: 199');
         });
 
+        it('El pokemon Lapras pertenece a la clase PokemonCreator', () => {
+            expect(Lapras).to.be.instanceOf(PokemonCreator);
+        });
+
         it('Pokemon Lapras', () => {
             expect(clientCode(Lapras)).to.be.eq('Soy Lapras, peso 220, mido 2.5, soy de tipo agua, mis puntos de ataque son: 85, mis puntos de defensa son: 80, mi velocidad es 60, y mis puntos de salud son: 295');
+        });
+
+        it('El pokemon Pikachu pertenece a la clase PokemonCreator', () => {
+            expect(Pikachu).to.be.instanceOf(PokemonCreator);
         });
 
         it('Pokemon Pikachu', () => {
