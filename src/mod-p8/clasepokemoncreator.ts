@@ -5,6 +5,7 @@ import {Pokemon} from './interfazpokemon';
 /**
  * Implementación concreta de la clase PokemonsCreator que retorna un objeto Pokemon siguiendo 'factorymethod'.
  */
+
 export class PokemonCreator extends PokemonsCreator {
     constructor (private name: string, private peso: number, private altura: number,  private tipo: string, private ataque: number,  private defensa: number,  private velocidad: number,  private hp: number) {
         super();
