@@ -4,6 +4,7 @@ import {Pokemon} from './interfazpokemon';
 
 /**
  * Implementación concreta de la clase PokemonsCreator que retorna un objeto Pokemon siguiendo 'factorymethod'.
+ * Debería haber puesto un nombre más específico
  */
 
 export class PokemonCreator extends PokemonsCreator {
