@@ -15,7 +15,12 @@
         "./src/mod-p7/MetricLeght.ts",
         "./src/mod-p7/ImperialLenght.ts",
         "./src/mod-p7/Adapter.ts",
-        "./src/mod-p7/ClientCode.ts"
+        "./src/mod-p7/ClientCode.ts",
+        "./src/mod-p8/clasepokemon.ts",
+        "./src/mod-p8/clasepokemoncreator.ts",
+        "./src/mod-p8/clientCode.ts",
+        "./src/mod-p8/interfazpokemon.ts",
+        "./src/mod-p8/pokemoncreator.ts"
     ],
     "out": "./docs"
 }
